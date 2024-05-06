@@ -1,61 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> <div id="login">
-        
-        <form method='post' action='' class="form">
-       <h1>CADASTRO</h1>            
-          <p>
-            <label for="name">Nome</label>
-            <input type="email"  id="email" name="email">
-          </p>
-           <p>
-               <label for="email">email</label>
-               <input type="email"  id="email" name="email">
-       
-   
-           </p>
-                <input type="password" placeholder="Senha" id="password" required>
-               <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
-           
-                   <button type="submit" class="pure-button pure-button-primary">Confirmar</button>
-               </fieldset>
-           </form>
-           <p>
 
-               <label for="name">Rua</label>
-               <input type="password" id="subject">
-   
-           </p>
-           <p>
-               <label for="name">Número</label>
-               <input type="password" id="subject">
-   
-           </p>
-           <p>
-               <label for="name">Bairro</label>
-               <input type="password" id="subject">
-   
-           </p>
-           <p>
-               <label for="name">Cidade</label>
-               <input type="password" id="subject">
-   
-           </p>
-           <p>
-               <label for="name">Este é o seu trabalho ou a sua casa?</label>
-              
-   
-           </p>
-
-
-   
-           <button>Entrar</button>
-        </form>
-        
-</div>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro </title>
+        <script src="js/cadastrar.js"></script>
+        <style></style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Cadastro</h2>
+            <form id="cadastroForm" action="inicio.html" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="Csenha">Confirmar senha:</label>
+                    <input type="password" id="Csenha" name="Csenha" required>
+                </div>
+                <div class="form-group">
+                    <a href="inicio.html"><button>Cadastrar</button></a>
+                </div>
+                </div>
+            </form>
+        </div>
 </body>
-
-    
+</html>
